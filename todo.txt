@@ -5,3 +5,14 @@ codenotes todo
 pull in the sns (so it can be used in other projects)
 
 - make files clickable
+
+- separate js from html
+- hardcode a "dataroot" for text files (i.e. ./data)
+- what is file nameing convention (part of SCHEMA consideration)
+- consider if all files should be in a 'root' directory (SCHEMA/ ACCESS, this question deals with our version of db.connect())
+- or, should we traverse sub directories? (SCHEMA)
+- add requirements for metadata, what fields? where to keep it?
+- jslint from commandline
+- create and add instructions to devnotes.txt
+- think about js directory (do we need it)
+- perhaps add unit tests?
