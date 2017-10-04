@@ -1,0 +1,4 @@
+/home/mricos/notes/linux
+/home/mricos/notes/devops
+/home/mricos/notes/biology
+/home/zoverlvx/notes/linux

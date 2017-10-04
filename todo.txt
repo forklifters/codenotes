@@ -1,0 +1,5 @@
+codenotes todo
+---
+
+- create subproject for simple-node-server (sns.js) and 
+pull in the sns (so it can be used in other projects)

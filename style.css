@@ -1,0 +1,61 @@
+body, textarea, button{
+  background:#888;
+  margin:0;
+  padding:0;
+}
+
+
+button{
+  font-size: 10px;
+  border: 1px solid #555;
+}
+
+
+body{
+  margin:1em;
+}
+
+textarea{
+  border: 1px solid #999;
+}
+
+#left{
+  float:left;
+  width:15%;
+}
+
+#selector{
+  border: 2px solid green;
+  min-height:1000px;
+  text-align:center;
+}
+
+#selector a{
+  text-decoration:none;
+  font-size:smaller;
+  font-weight:bold;
+}
+
+#selector a.selected{
+  color:red;
+}
+
+
+#middle{
+  float:left;
+  width:70%;
+ padding-left:1em;
+}
+#right{
+  float:left;
+  width:5%;
+}
+
+#preview{
+  width:100%;
+  border: 2px solid #666;
+  margin:0;
+  padding:1em;
+  padding-top:0em;
+}
+
