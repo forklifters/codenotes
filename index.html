@@ -27,39 +27,6 @@
    <button type="button">savefile</button>
    </div> <!--right -->
     <script src="js/node_modules/markdown/lib/markdown.js"></script> 
-    <script>
-      function Editor(input, preview) {
-        this.update = function () {
-          preview.innerHTML = markdown.toHTML(input.value);
-        };
-        input.editor = this;
-        this.update();
-      }
-
-      function Selector(div, fileObjects) {
-        this.update = function () {
-           div.innerHTML = makeFileLinks();
-        };
-        this.update();
-      }
-
-      function makeFileLinks(){
-          html = "<a href=\'/\'>fileId001</a>";
-          html += "<br>";
-          html += "<a href=\'/\' class='selected'>fileId002</a>";
-          html += "<br>";
-          html += "<a href=\'/\'>fileId002</a>";
-          return html;
-      }
-
-      var $ = function (id) { return document.getElementById(id); };
-      new Editor($("text-input"), $("preview"));
-      
-      new Selector($("selector"),
-                      [{name:'interface.md',
-                      path:'./'
-                      }]
-                  );
-</script>
+    <script src="js/index.js"></script>
   </body>
 </html>
