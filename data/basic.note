@@ -1,0 +1,13 @@
+Note title
+---
+Note text  
+
+Metadata
+--
+name = name to be displayed in list
+dir = dataroot (this is determined by the program)
+path = dir + name
+tags = (should tags be free form or pick from a list?)
+create-date=  WE NEED TO DETERMINE date string format 
+  (see CLI date program and google for date string)
+permissions = what kind of permissions data to end this note?

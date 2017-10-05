@@ -1,0 +1,6 @@
+What data is in a note file?
+Just the note? Or metadata and the note?
+What metadata?
+ - dirname
+ - filenme
+ - path = dirname+dirseparator+filename
